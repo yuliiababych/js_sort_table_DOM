@@ -20,7 +20,7 @@ table.addEventListener('click', (e) => {
       const numA = parseFloat(cellA.replace(/[^0-9.-]+/g, ''));
       const numB = parseFloat(cellB.replace(/[^0-9.-]+/g, ''));
 
-      if (!isNaN(numA) && !isNaN(numA)) {
+      if (!isNaN(numA) && !isNaN(numB)) {
         return numA - numB;
       }
 
